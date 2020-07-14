@@ -8,6 +8,7 @@ def line(i)
   
   else #i.length >= 1
   #counter = 1
+  array.push(name)
   new_array.each_with_index {|name, index|}
     #counter += 1
    puts "The line is currently: #{i.length}. #{name}"
