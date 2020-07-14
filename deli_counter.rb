@@ -27,7 +27,6 @@ def take_a_number(array, name)
   end
  puts "Welcome, #{name}. You are number #{array.length} in line."
   end
-  take_a_number
 end
 #def now_serving(x)
   
