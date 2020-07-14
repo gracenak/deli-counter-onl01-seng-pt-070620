@@ -1,12 +1,12 @@
 require 'pry'
 katz_deli = []
 
-def line(x)
+def line(number)
   new_array = []
-  if x.length == 0 
+  if number.length == 0 
     puts "The line is currently empty."
   else 
-  x.each_with_index(1) do |name, index|
+  number.each_with_index(1) do |name, index|
   new_array.push("#{index}. #{name}")
 end
    puts "The line is currently: #{new_array.join(" ")}"
