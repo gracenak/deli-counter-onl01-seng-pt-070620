@@ -1,3 +1,4 @@
+require 'pry'
 katz_deli = []
 
 def line(i)
@@ -12,6 +13,7 @@ def line(i)
     counter += 1
   end 
    puts "The line is currently #{index}. #{name}"
+   binding.pry
   end
 end 
 
