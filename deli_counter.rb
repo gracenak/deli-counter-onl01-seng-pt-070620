@@ -11,7 +11,7 @@ def line(i)
   i.each_with_index do |name, index|
     counter += 1
   end 
-  new_array << "The line is currently #{index}. #{name}"
+   puts "The line is currently #{index}. #{name}"
   end
 end 
 
