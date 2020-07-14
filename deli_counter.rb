@@ -8,10 +8,10 @@ def line(i)
   
   elsif i.length >= 1
   counter = 1
-  new_array.each_with_index do |name, index|
+  new_array.each_with_index do |name|
     counter += 1
   end 
-   puts "The line is currently: #{index}. #{name}"
+   puts "The line is currently: #{i.length}. #{name}"
    binding.pry
   end
 end 
