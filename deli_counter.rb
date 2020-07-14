@@ -7,12 +7,12 @@ def line(i)
     puts "The line is currently empty."
   
   elsif i.length >= 1
-  i.push(name)
+  new_array.push(name)
   counter = 1
-  i.each_with_index do |name, index|
+  new_array.each_with_index do |name, index|
     counter += 1
   end 
-   puts "The line is currently #{index}. #{name}"
+   puts "The line is currently: #{index}. #{name}"
    binding.pry
   end
 end 
