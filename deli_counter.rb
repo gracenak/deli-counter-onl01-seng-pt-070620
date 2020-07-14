@@ -7,7 +7,6 @@ def line(i)
     puts "The line is currently empty."
   
   elsif i.length >= 1
-  new_array.push(index)
   counter = 1
   new_array.each_with_index do |name, index|
     counter += 1
