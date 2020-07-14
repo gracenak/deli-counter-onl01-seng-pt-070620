@@ -6,12 +6,11 @@ def line(i)
   if i.length == 0 
     puts "The line is currently empty."
   
-  else i.length >= 1
-  counter = 1
-  new_array.each_with_index(|name,index|)
-    counter += 1
-  end 
-   return i.join(',') <<  "The line is currently: #{i.length}. #{name}"
+  else #i.length >= 1
+  #counter = 1
+  new_array.each_with_index {|name, index|}
+    #counter += 1
+   puts "The line is currently: #{i.length}. #{name}"
    binding.pry
   end
 end 
