@@ -1,9 +1,9 @@
 require 'pry'
 katz_deli = []
 
-def line(i)
+def line(x)
   new_array = []
-  if i.length == 0 
+  if x.length == 0 
     puts "The line is currently empty."
   
   else i.length >= 1
