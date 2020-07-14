@@ -6,12 +6,11 @@ def line(x)
   if x.length == 0 
     puts "The line is currently empty."
   
-  else i.length >= 1
-  counter = 1
-  
-  new_array.each_with_index {|name, index|}
-    counter += 1
-   puts  "The line is currently: #{i.length}. #{name}"
+  else 
+  x.each_with_index(1) {|name, index|}
+  new_array.push("#{index}. #{name}")
+end
+   puts  "The line is currently: #{line_array.join(" ")}"
   end
 end 
 
