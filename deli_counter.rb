@@ -24,5 +24,8 @@ def take_a_number(array, name)
   end
 end
 
+def now_serving(x)
+  
+
 
   
