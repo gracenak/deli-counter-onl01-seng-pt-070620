@@ -6,8 +6,11 @@ def line(i)
     puts "The line is currently empty."
   
   elsif i.length >= 1
+  i.push(name)
+  counter = 1
   i.each_with_index do |name, index|
-  i[1] = #{index}
+    counter += 1
+  end 
   new_array << "The line is currently #{index}. #{name}"
   end
 end 
@@ -24,7 +27,7 @@ def take_a_number(array, name)
   end
 end
 
-def now_serving(x)
+#def now_serving(x)
   
 
 
